@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background: #f5f6fa;
+}
+header>div{
+  padding: 0;
+}
+main{
+  padding: 15px;
+}
+
+#save-note-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 100;
+}
+#btn-install {
+  position: fixed;
+  bottom: 90px;  
+  right: 24px;
+  z-index: 101;  
+}
+
+#btn-install:hover {
+  background-color: #e91e63;
+}
+
+
+.mdl-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mdl-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.note-text {
+  font-size: 16px;
+  color: #333;
+  padding: 12px;
+  line-height: 1.5;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+  background: #fafafa;
+  border-top: 1px solid #eee;
+}
+
+.delete-btn {
+  color: #d32f2f;
+}
